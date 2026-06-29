@@ -15,9 +15,10 @@ La página web incorpora de manera estructurada los siguientes contenidos requer
 1. **Introducción:** Definición e importancia estratégica de la comunicación en la ingeniería y las relaciones humanas.
 2. **Rol de la Comunicación Asertiva en ADSO:** Detalle de los 6 beneficios fundamentales en el desarrollo de software (especificación de requisitos, colaboración, resolución de conflictos, feedback, relación con clientes, negociación de plazos).
 3. **Tipos de Comunicación y Reto:** Explicación conceptual de comunicación verbal, no verbal y escrita, junto con la reflexión de los aprendizajes del reto práctico de comunicación.
-4. **Integrantes:** Perfiles profesionales del equipo de desarrollo, incluyendo a Manuel Ocampo Tobón.
-5. **Reflexión Trimestral:** Reflexiones individuales de los aprendices sobre la competencia al finalizar el trimestre.
-6. **Evidencia de Trabajos:** Sección de galería interactiva con la muestra de las actividades desarrolladas en clase.
+4. **Estilos de Comunicación y Proxemia:** Análisis detallado de los estilos agresivo, pasivo, pasivo-agresivo (con caso de estudio práctico) y la proxemia (zonas de distancia interpersonal).
+5. **Características de la Asertividad:** Detalle de los componentes no verbales y conductuales (uso del yo, postura corporal abierta, contacto visual directo, tono de voz firme/calmado y escucha activa).
+6. **Autor / Aprendiz:** Perfil y reflexión individual de Emanuel Ocampo Tobón sobre la competencia al finalizar el trimestre.
+7. **Evidencia de Trabajos:** Sección de galería interactiva con la muestra de las actividades desarrolladas en clase.
 
 ## 📂 Visualización Local
 
