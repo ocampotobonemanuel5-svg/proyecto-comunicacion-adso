@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página web sobre el rol de la comunicación asertiva en el desempeño del Tecnólogo en Análisis y Desarrollo de Software (ADSO). Evidencias y reflexiones del trimestre.">
+  <meta name="author" content="Manuel Ocampo Tobón y equipo">
+  <title>Comunicación Asertiva en ADSO | Blog & Portafolio</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       NAVBAR
+       ========================================================================== */ -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar" id="main-nav">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">
+        <i class="bi bi-chat-left-dots-fill me-2 text-primary"></i>ADSO.Comunicaciones
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#introduccion">Introducción</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#rol-asertivo">Comunicación en ADSO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tipos-reto">Tipos & Reto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#integrantes">Integrantes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#evidencias">Evidencias</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== */ -->
+  <header id="inicio" class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <span class="badge-custom">
+            <i class="bi bi-cpu-fill"></i> Análisis y Desarrollo de Software
+          </span>
+          <h1 class="hero-title">El Arte de Comunicar en la Ingeniería de Software</h1>
+          <p class="hero-subtitle">
+            Exploramos el impacto de la comunicación asertiva como el puente fundamental entre el código de calidad, el trabajo en equipo de alto rendimiento y la satisfacción del cliente.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#rol-asertivo" class="btn btn-gradient">Ver Beneficios</a>
+            <a href="#evidencias" class="btn btn-outline-custom">Ver Trabajos</a>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+          <!-- Ilustración de tecnología/comunicación en gradiente -->
+          <div class="position-relative p-5">
+            <div class="position-absolute top-50 start-50 translate-middle" style="width: 300px; height: 300px; background: radial-gradient(circle, rgba(99,102,241,0.2) 0%, rgba(0,0,0,0) 70%);"></div>
+            <div class="glass-card text-center p-4 py-5" style="border-radius: 24px;">
+              <i class="bi bi-code-square display-1 text-primary mb-3 d-block"></i>
+              <span class="fs-5 fw-bold text-white d-block mb-1">&lt;Comunicación /&gt;</span>
+              <span class="text-secondary small">La sintaxis invisible de la colaboración</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       INTRODUCCION
+       ========================================================================== */ -->
+  <section id="introduccion" class="section-padding border-top border-secondary border-opacity-10">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="pe-md-4">
+            <span class="text-primary fw-bold text-uppercase tracking-wider">Concepto Clave</span>
+            <h2 class="section-title mt-2">¿Qué es la Comunicación y por qué importa?</h2>
+            <p class="text-secondary mt-3">
+              La comunicación no es simplemente transmitir palabras; es el proceso activo de codificar, transmitir y decodificar ideas para generar un entendimiento común. En el entorno humano, es la base que nos permite convivir, organizarnos y construir sociedades complejas.
+            </p>
+            <p class="text-secondary">
+              En el desarrollo de software, la comunicación es tan crítica como la sintaxis del lenguaje de programación. Un sistema informático se construye para solucionar problemas humanos; por lo tanto, si falla el canal de comunicación para entender esos problemas, el software resultante (sin importar qué tan optimizado esté el código) estará destinado a fallar en cumplir su propósito.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="glass-card">
+            <h3 class="h4 text-white mb-4"><i class="bi bi-lightning-fill text-warning me-2"></i>El Enfoque Estratégico</h3>
+            <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
+              <li class="d-flex align-items-start">
+                <i class="bi bi-check-circle-fill text-primary me-3 mt-1"></i>
+                <div>
+                  <h4 class="h6 text-white mb-1">Alineación del Equipo</h4>
+                  <p class="text-secondary small mb-0">Permite que arquitectos, desarrolladores y testers avancen en la misma dirección sin suposiciones erróneas.</p>
+                </div>
+              </li>
+              <li class="d-flex align-items-start">
+                <i class="bi bi-check-circle-fill text-primary me-3 mt-1"></i>
+                <div>
+                  <h4 class="h6 text-white mb-1">Optimización de Recursos</h4>
+                  <p class="text-secondary small mb-0">Reduce el retrabajo al validar ideas y dudas de manera temprana en el ciclo de vida del desarrollo.</p>
+                </div>
+              </li>
+              <li class="d-flex align-items-start">
+                <i class="bi bi-check-circle-fill text-primary me-3 mt-1"></i>
+                <div>
+                  <h4 class="h6 text-white mb-1">Empatía con el Usuario</h4>
+                  <p class="text-secondary small mb-0">Ayuda a traducir necesidades vagas y expectativas complejas en requerimientos técnicos claros.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ROL ASERTIVO EN ADSO
+       ========================================================================== */ -->
+  <section id="rol-asertivo" class="section-padding bg-dark bg-opacity-25 border-top border-secondary border-opacity-10">
+    <div class="container">
+      <div class="text-center">
+        <span class="text-primary fw-bold text-uppercase tracking-wider">Beneficios Clave</span>
+        <h2 class="section-title mt-2">Rol de la Comunicación Asertiva en ADSO</h2>
+        <p class="section-subtitle">
+          La asertividad nos permite expresar ideas, requerimientos, límites y soluciones de manera clara, honesta y respetuosa, impactando positivamente en el desempeño del tecnólogo.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Requisitos -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card">
+            <div class="card-icon">
+              <i class="bi bi-file-earmark-ruled"></i>
+            </div>
+            <h3 class="h5 text-white mb-3">Especificación de Requisitos</h3>
+            <p class="text-secondary small">
+              Asegura que los requisitos del software sean entendidos correctamente por todo el equipo de desarrollo, previniendo costosos malentendidos y correcciones tardías.
+            </p>
+          </div>
+        </div>
+        <!-- Colaboración -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card">
+            <div class="card-icon">
+              <i class="bi bi-people"></i>
+            </div>
+            <h3 class="h5 text-white mb-3">Colaboración Efectiva</h3>
+            <p class="text-secondary small">
+              Permite a los tecnólogos expresar ideas y opiniones respetuosamente, consolidando un ambiente seguro donde todos participan activamente aportando soluciones.
+            </p>
+          </div>
+        </div>
+        <!-- Conflictos -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card">
+            <div class="card-icon">
+              <i class="bi bi-shield-exclamation"></i>
+            </div>
+            <h3 class="h5 text-white mb-3">Resolución de Conflictos</h3>
+            <p class="text-secondary small">
+              Facilita la gestión y mediación de fricciones técnicas o personales que surgen durante la marcha del proyecto, buscando siempre acuerdos ganar-ganar.
+            </p>
+          </div>
+        </div>
+        <!-- Feedback -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card">
+            <div class="card-icon">
+              <i class="bi bi-arrow-left-right"></i>
+            </div>
+            <h3 class="h5 text-white mb-3">Feedback Constructivo</h3>
+            <p class="text-secondary small">
+              Promueve un flujo constante de retroalimentación constructiva sobre el código y el flujo de trabajo, indispensable para la mejora y el crecimiento profesional.
+            </p>
+          </div>
+        </div>
+        <!-- Clientes -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card">
+            <div class="card-icon">
+              <i class="bi bi-chat-quote"></i>
+            </div>
+            <h3 class="h5 text-white mb-3">Relación con Clientes</h3>
+            <p class="text-secondary small">
+              Ayuda a gestionar expectativas de manera realista, traduciendo la jerga técnica al lenguaje de negocios para generar confianza y transparencia.
+            </p>
+          </div>
+        </div>
+        <!-- Negociación -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card">
+            <div class="card-icon">
+              <i class="bi bi-calendar-check"></i>
+            </div>
+            <h3 class="h5 text-white mb-3">Negociación de Plazos</h3>
+            <p class="text-secondary small">
+              Permite argumentar de forma sólida ante líderes y clientes sobre la viabilidad técnica, los tiempos estimados y los recursos requeridos para el éxito del proyecto.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TIPOS DE COMUNICACION Y RETO
+       ========================================================================== */ -->
+  <section id="tipos-reto" class="section-padding border-top border-secondary border-opacity-10">
+    <div class="container">
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-6">
+          <span class="text-primary fw-bold text-uppercase tracking-wider">Metodología</span>
+          <h2 class="section-title mt-2">Tipos de Comunicación y Dinámica de Formación</h2>
+          <p class="text-secondary">
+            En la formación abordamos los distintos canales por los cuales se emite la información, destacando que el mensaje final se compone de la integración de todos ellos:
+          </p>
+          
+          <div class="d-flex flex-column gap-3 mt-4">
+            <div class="d-flex align-items-start gap-3">
+              <span class="concept-badge badge-verbal mt-1">Verbal</span>
+              <div>
+                <h4 class="h6 text-white mb-1">Lo que decimos y cómo lo estructuramos</h4>
+                <p class="text-secondary small mb-0">Reuniones técnicas, Daily Standups y explicaciones de arquitectura.</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start gap-3">
+              <span class="concept-badge badge-no-verbal mt-1">No Verbal</span>
+              <div>
+                <h4 class="h6 text-white mb-1">Gestos, postura y tono de voz</h4>
+                <p class="text-secondary small mb-0">Crucial para transmitir confianza, apertura y escucha activa en videollamadas y presencial.</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start gap-3">
+              <span class="concept-badge badge-escrita mt-1">Escrita</span>
+              <div>
+                <h4 class="h6 text-white mb-1">Documentación, comentarios de código y chats</h4>
+                <p class="text-secondary small mb-0">La base histórica del desarrollo de software. Debe ser concisa, inequívoca y estructurada.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <div class="glass-card" style="border-left: 4px solid var(--accent-secondary);">
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bi bi-trophy text-warning fs-4"></i>
+              <h3 class="h4 text-white mb-0">Reflexión: El Reto de Tipos de Comunicación</h3>
+            </div>
+            <p class="text-secondary">
+              Durante la formación, nos enfrentamos al <strong>"Reto de Tipos de Comunicación"</strong>, una actividad en la cual debíamos comunicar una especificación de diseño de software compleja limitando ciertos canales (por ejemplo, usando únicamente lenguaje no verbal, o solo comunicación escrita asincrónica sin posibilidad de preguntas inmediatas).
+            </p>
+            <p class="text-secondary">
+              <strong>Nuestra Reflexión del Reto:</strong> Esta dinámica nos demostró de forma contundente la fragilidad de la comunicación. Cuando se restringen los canales de comunicación, aumentan drásticamente los sesgos de interpretación del receptor. En el desarrollo de software, esto se traduce en código mal implementado debido a documentos de requisitos ambiguos o mal redactados. Concluimos que para minimizar errores, debemos combinar de forma inteligente la documentación escrita rigurosa con la retroalimentación verbal interactiva.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       INTEGRANTES Y REFLEXIONES
+       ========================================================================== */ -->
+  <section id="integrantes" class="section-padding bg-dark bg-opacity-25 border-top border-secondary border-opacity-10">
+    <div class="container">
+      <div class="text-center">
+        <span class="text-primary fw-bold text-uppercase tracking-wider">El Equipo</span>
+        <h2 class="section-title mt-2">Integrantes y Reflexiones Trimestrales</h2>
+        <p class="section-subtitle">
+          Presentación de los tecnólogos en formación y sus aprendizajes significativos obtenidos a lo largo del trimestre en el área de comunicación.
+        </p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <!-- Manuel Ocampo -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card team-card">
+            <div class="avatar-wrapper">
+              <!-- Avatar por defecto con iniciales -->
+              <div class="avatar-img d-flex align-items-center justify-content-center bg-dark text-white fw-bold fs-3">MO</div>
+            </div>
+            <h3 class="team-name text-white">Manuel Ocampo Tobón</h3>
+            <span class="team-role">Desarrollador ADSO</span>
+            <p class="team-bio">
+              Tecnólogo en Análisis y Desarrollo de Software. Apasionado por el desarrollo frontend, la integración de APIs y el diseño de interfaces modernas y responsivas.
+            </p>
+            <div class="reflection-box">
+              <h4 class="h6 text-white mb-2"><i class="bi bi-quote text-primary me-1"></i> Aprendizaje del Trimestre:</h4>
+              "He comprendido que documentar correctamente y expresar mis dudas técnicas a tiempo es tan vital como escribir buen código. La asertividad me ha ayudado a integrarme y coordinar mucho mejor mi trabajo."
+            </div>
+          </div>
+        </div>
+
+        <!-- Integrante 2 (Template) -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card team-card">
+            <div class="avatar-wrapper">
+              <div class="avatar-img d-flex align-items-center justify-content-center bg-dark text-white fw-bold fs-3">AB</div>
+            </div>
+            <h3 class="team-name text-white">Alejandro Bedoya</h3>
+            <span class="team-role">Desarrollador Backend</span>
+            <p class="team-bio">
+              Interesado en arquitectura de bases de datos, APIs y lógica de servidor. Considera que la comunicación es la clave para evitar cuellos de botella técnicos.
+            </p>
+            <div class="reflection-box">
+              <h4 class="h6 text-white mb-2"><i class="bi bi-quote text-primary me-1"></i> Aprendizaje del Trimestre:</h4>
+              "La formación me ha enseñado a escuchar activamente y a estructurar el feedback de forma constructiva. Aprender a recibir críticas sobre mi código me ha permitido mejorar la calidad de mis entregables."
+            </div>
+          </div>
+        </div>
+
+        <!-- Integrante 3 (Template) -->
+        <div class="col-md-6 col-lg-4">
+          <div class="glass-card team-card">
+            <div class="avatar-wrapper">
+              <div class="avatar-img d-flex align-items-center justify-content-center bg-dark text-white fw-bold fs-3">NR</div>
+            </div>
+            <h3 class="team-name text-white">Natalia Restrepo</h3>
+            <span class="team-role">Diseñadora UI/UX</span>
+            <p class="team-bio">
+              Apasionada por la experiencia de usuario y el diseño interactivo. Cree en la empatía y la comunicación clara para transformar ideas complejas en pantallas simples.
+            </p>
+            <div class="reflection-box">
+              <h4 class="h6 text-white mb-2"><i class="bi bi-quote text-primary me-1"></i> Aprendizaje del Trimestre:</h4>
+              "He aprendido a argumentar mis decisiones de diseño con base en datos y empatía con el usuario. Negociar plazos y requerimientos de forma asertiva nos ha evitado reprocesos importantes."
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       EVIDENCIAS Y TRABAJOS
+       ========================================================================== */ -->
+  <section id="evidencias" class="section-padding border-top border-secondary border-opacity-10">
+    <div class="container">
+      <div class="text-center">
+        <span class="text-primary fw-bold text-uppercase tracking-wider">Portafolio</span>
+        <h2 class="section-title mt-2">Evidencias de Trabajos Realizados</h2>
+        <p class="section-subtitle">
+          Muestra de los proyectos, informes y dinámicas completadas a lo largo de la competencia de comunicación durante este periodo.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Evidencia 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="evidence-card">
+            <div class="evidence-img-container">
+              <i class="bi bi-file-earmark-bar-graph evidence-icon"></i>
+            </div>
+            <div class="evidence-body">
+              <span class="badge bg-secondary bg-opacity-25 text-white-50 mb-2">Taller Práctico</span>
+              <h3 class="evidence-title text-white">1. Mapa de Canales y Asertividad</h3>
+              <p class="evidence-desc">
+                Análisis de la efectividad de los canales de comunicación y diseño de una matriz para la resolución asertiva de problemas en un equipo de desarrollo.
+              </p>
+              <a href="#" class="btn btn-sm btn-outline-custom w-100 disabled">Próximamente Archivo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Evidencia 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="evidence-card">
+            <div class="evidence-img-container">
+              <i class="bi bi-journal-text evidence-icon"></i>
+            </div>
+            <div class="evidence-body">
+              <span class="badge bg-secondary bg-opacity-25 text-white-50 mb-2">Documentación</span>
+              <h3 class="evidence-title text-white">2. Bitácora del Reto de Comunicación</h3>
+              <p class="evidence-desc">
+                Bitácora de seguimiento grupal detallando los problemas experimentados durante el reto y las lecciones aprendidas sobre ruidos en el canal.
+              </p>
+              <a href="#" class="btn btn-sm btn-outline-custom w-100 disabled">Próximamente Archivo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Evidencia 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="evidence-card">
+            <div class="evidence-img-container">
+              <i class="bi bi-camera-video evidence-icon"></i>
+            </div>
+            <div class="evidence-body">
+              <span class="badge bg-secondary bg-opacity-25 text-white-50 mb-2">Juego de Rol</span>
+              <h3 class="evidence-title text-white">3. Video de Negociación de Plazos</h3>
+              <p class="evidence-desc">
+                Grabación y análisis del juego de rol simulando una negociación entre cliente y líder de desarrollo ante retrasos de entregables del software.
+              </p>
+              <a href="#" class="btn btn-sm btn-outline-custom w-100 disabled">Próximamente Archivo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== */ -->
+  <footer class="custom-footer">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <a class="footer-brand d-inline-block mb-2" href="#inicio">
+            <i class="bi bi-chat-left-dots-fill me-2 text-primary"></i>ADSO.Comunicaciones
+          </a>
+          <p class="small mb-0">
+            Página desarrollada con HTML, CSS personalizado y Bootstrap 5.<br>
+            Entregable de la competencia de Comunicación - Tecnólogo en Análisis y Desarrollo de Software.
+          </p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3 mb-3">
+            <a href="https://github.com/ocampotobonemanuel5-SVG" target="_blank" class="social-link" title="GitHub de Manuel Ocampo">
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+          <p class="small mb-0">
+            &copy; 2026. Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Script simple para marcar secciones activas en nav al hacer scroll -->
+  <script>
+    window.addEventListener('DOMContentLoaded', event => {
+      const mainNav = document.body.querySelector('#main-nav');
+      if (mainNav) {
+        new bootstrap.ScrollSpy(document.body, {
+          target: '#mainNav',
+          rootMargin: '0px 0px -40%',
+        });
+      }
+    });
+  </script>
+</body>
+</html>
